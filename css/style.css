@@ -1,0 +1,204 @@
+/*
+wood brown: A89F68;
+army green: 41521F;
+*/
+
+*{
+	font-family: 'Lato', sans-serif;
+}
+
+.first-section{
+	background-image: url(../img/portada.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.first-section h2{
+	color: #fff;
+	font-weight: 700;
+	font-size: 50px;
+}
+
+/*to overide the default gray color of default navbar*/
+.navbar1-default {
+	background-color:transparent !important;
+	border-color:transparent;
+	background-image:none;
+	box-shadow:none;	
+}
+
+.navbar1-brand{
+	color: #fff !important;
+	font-size: 21px;
+}
+
+.navbar1-default .navbar1-nav>li>a {
+   font-size:20px; 
+   color:#fff; 
+}
+
+.navbar2-header,
+.navbar1-nav { 
+   margin: 0 5%
+  }
+
+  #intro p{
+  	color: #fff;
+  }
+
+ #intro{
+ 	padding-top: 15%;
+ 	font-size: 1.5rem;
+ }
+
+ .btn-default{
+ 	background-color: #41521F;
+ 	border: none;
+ 	color: #fff;
+ }
+
+ /*----------section foundation-------*/
+#foundation{
+	padding: 10% 0;
+}
+
+#foundation h3,
+#foundation h4,
+#foundation a{
+	color: #A89F68;
+}
+
+/*----------section koalas-------*/
+
+#koalas{
+	padding: 10% 0;
+	background-color: #A89F68;
+}
+
+#koalas h4,
+#koalas p{
+	color: #fff;
+}
+
+#koalas h3{
+	color: #41521F;
+}
+
+.cosita{
+	border: 8px solid #fff;
+}
+
+.fourth-section{
+	background-image: url(../img/all.jpg);
+	height: 90vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.grupo{
+	color: #fff;
+	padding: 5% 0 0 50%;
+}
+
+/*----------------Help-----------*/
+.fifth-section{
+	background-color: #fbffbe;
+	padding: 10% 0;
+}
+
+
+.fifth-section h3,
+.fifth-section i{
+	color: #A89F68;
+}
+
+.fifth-section i{
+	padding: 3% 0;
+}
+
+.fifth-section a{
+	color: #A89F68; 
+}
+
+/*----------------Donativo-----------*/
+
+.donativo{
+	background-color: #A89F68;
+	padding: 10% 0;
+}
+
+.number{
+	font-size: 10em;
+	line-height: 1em;
+}
+
+.precio span{
+	color: #fbffbe;
+	margin: 0;
+	padding: 0;
+}
+
+.fifth-section h3,
+.donate h3{
+	color: #41521F;
+	margin-bottom: 5%;
+}
+
+.linea p{
+	line-height: 3em;
+	margin-bottom: 0;
+}
+
+.linea{
+	border-bottom: 1px solid #fbffbe;
+}
+
+.api{
+	line-height: 3em;
+}
+
+.seccion-precio:hover{
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 5px;
+	padding: 3% 0;
+	cursor: pointer;
+}
+
+sup{
+	font-size: 10px;
+}
+
+.cajita-collapse{
+	background-color: #41521F;
+	color: white;
+	margin: 10px;
+	border: none;
+}
+
+
+/*-----------footer-------------*/
+.footer{
+	background-color: #41521F;
+	padding: 7% 0;
+}
+
+.footer h3{
+	color: #A89F68;
+	margin-top: 0;
+}
+
+.footer a{
+	color: #A89F68;
+	text-decoration: none;
+}
+
+.footer p{
+	color: #fff;
+}
+
+.enlaces{
+	padding-top: 5%;
+}
